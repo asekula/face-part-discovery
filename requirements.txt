@@ -1,0 +1,11 @@
+# Python 3.12+. Torch built for CUDA 12.6 was used:
+#   pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu126
+numpy==2.5.3
+scipy==1.18.1
+pillow==12.3.0
+matplotlib==3.11.1
+torch==2.14.0
+torchvision
+# DINO co-parts baseline only (run_dino.py), plus a clone of github.com/ShirAmir/dino-vit-features
+faiss-cpu
+pydensecrf

@@ -1,0 +1,12 @@
+# FFHQ images and metadata: download with code/download_ffhq.py
+code/ffhq_nvlabs/
+# discovery output (about 180 MB per run): regenerate with code/proto_gpu/proto_leader_gpu.py
+code/proto_gpu/results/*/clusters.pkl
+code/proto_gpu/results/*/scan_all_*.npz
+code/results/*/clusters.pkl
+figures/
+figure_scripts/fig3_data/
+__pycache__/
+*.log
+*.partial.npz
+.DS_Store

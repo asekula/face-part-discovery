@@ -1,0 +1,49 @@
+position only: NME 34.24 % [33.37, 35.09], PCK@0.25 0.304, PCK@0.1 0.047
+dff U=100 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(1.0)} (dev 14.71), test NME 14.83 % [14.35, 15.32], vs position only -19.41 [-20.26, -18.56], PCK@0.25 0.868, PCK@0.1 0.358; saturation (500/1000/2000) 15.29/14.95/14.83
+    per landmark NME: left eye 12.56, right eye 12.69, nose tip 19.91, left mouth corner 14.33, right mouth corner 14.69
+    every (readout, K): dev / test NME  regression K=4 16.41/16.50, vote K=4 19.20/19.46, regression K=8 15.54/15.62, vote K=8 18.99/18.92, regression K=16 15.05/15.10, vote K=16 19.18/19.49, regression K=32 14.71/14.83, vote K=32 18.97/19.12
+dff U=1000 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(1.0)} (dev 14.77), test NME 14.82 % [14.32, 15.31], vs position only -19.42 [-20.28, -18.57], PCK@0.25 0.871, PCK@0.1 0.358; saturation (500/1000/2000) 15.41/15.00/14.82
+    per landmark NME: left eye 12.47, right eye 12.55, nose tip 19.60, left mouth corner 14.73, right mouth corner 14.77
+    every (readout, K): dev / test NME  regression K=4 16.53/16.80, vote K=4 19.03/19.31, regression K=8 15.53/15.77, vote K=8 18.26/18.64, regression K=16 15.15/15.32, vote K=16 18.27/18.49, regression K=32 14.77/14.82, vote K=32 18.51/18.80
+dino U=100 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(10.0)} (dev 31.49), test NME 31.04 % [30.19, 31.94], vs position only -3.20 [-3.84, -2.57], PCK@0.25 0.395, PCK@0.1 0.065; saturation (500/1000/2000) 31.74/31.13/31.04
+    per landmark NME: left eye 29.43, right eye 29.53, nose tip 35.31, left mouth corner 30.44, right mouth corner 30.52
+    every (readout, K): dev / test NME  regression K=4 32.67/31.98, vote K=4 67.80/66.25, regression K=8 32.13/31.50, vote K=8 67.80/66.25, regression K=16 31.72/31.17, vote K=16 67.80/66.25, regression K=32 31.49/31.04, vote K=32 67.80/66.25
+dino U=1000 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(10.0)} (dev 25.55), test NME 24.57 % [23.78, 25.38], vs position only -9.67 [-10.50, -8.80], PCK@0.25 0.589, PCK@0.1 0.126; saturation (500/1000/2000) 25.52/24.72/24.57
+    per landmark NME: left eye 22.60, right eye 22.74, nose tip 29.59, left mouth corner 23.86, right mouth corner 24.08
+    every (readout, K): dev / test NME  regression K=4 26.20/24.94, vote K=4 38.29/35.27, regression K=8 25.95/24.73, vote K=8 38.29/35.27, regression K=16 25.77/24.63, vote K=16 38.29/35.27, regression K=32 25.55/24.57, vote K=32 38.29/35.27
+dinoallfg U=100 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(1.0)} (dev 7.52), test NME 7.48 % [7.25, 7.71], vs position only -26.77 [-27.61, -25.92], PCK@0.25 0.989, PCK@0.1 0.758; saturation (500/1000/2000) 7.78/7.62/7.48
+    per landmark NME: left eye 5.76, right eye 5.74, nose tip 9.57, left mouth corner 8.25, right mouth corner 8.08
+    every (readout, K): dev / test NME  regression K=4 8.21/8.12, vote K=4 11.02/10.98, regression K=8 7.87/7.86, vote K=8 11.02/10.98, regression K=16 7.61/7.59, vote K=16 10.73/10.64, regression K=32 7.52/7.48, vote K=32 10.68/10.56
+dinoallfg U=1000 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(10.0)} (dev 7.64), test NME 7.51 % [7.29, 7.74], vs position only -26.74 [-27.57, -25.91], PCK@0.25 0.988, PCK@0.1 0.753; saturation (500/1000/2000) 7.71/7.57/7.51
+    per landmark NME: left eye 5.91, right eye 5.85, nose tip 9.58, left mouth corner 8.23, right mouth corner 7.96
+    every (readout, K): dev / test NME  regression K=4 8.65/8.52, vote K=4 10.74/10.62, regression K=8 8.02/7.79, vote K=8 10.60/10.45, regression K=16 7.73/7.58, vote K=16 10.60/10.45, regression K=32 7.64/7.51, vote K=32 10.60/10.45
+dinohard U=100 [label-selected 32 of a pool of 60]: regression K=32 {'lam': np.float64(10.0)} (dev 26.07), test NME 25.68 % [24.85, 26.52], vs position only -8.56 [-9.36, -7.77], PCK@0.25 0.554, PCK@0.1 0.129; saturation (500/1000/2000) 26.39/25.90/25.68
+    per landmark NME: left eye 23.31, right eye 23.35, nose tip 31.27, left mouth corner 25.25, right mouth corner 25.23
+    every (readout, K): dev / test NME  regression K=4 26.59/26.29, vote K=4 28.27/27.58, regression K=8 26.31/26.18, vote K=8 28.27/27.58, regression K=16 26.15/25.96, vote K=16 29.23/28.66, regression K=32 26.07/25.68, vote K=32 29.23/28.66
+dinohard U=1000 [label-selected 32 of a pool of 60]: regression K=16 {'lam': 0.0} (dev 21.51), test NME 20.62 % [19.92, 21.31], vs position only -13.62 [-14.54, -12.73], PCK@0.25 0.708, PCK@0.1 0.212; saturation (500/1000/2000) 20.82/20.57/20.62
+    per landmark NME: left eye 18.50, right eye 18.42, nose tip 25.67, left mouth corner 20.31, right mouth corner 20.22
+    every (readout, K): dev / test NME  regression K=4 21.80/20.92, vote K=4 29.17/28.66, regression K=8 21.53/20.66, vote K=8 29.17/28.66, regression K=16 21.51/20.62, vote K=16 29.15/28.52, regression K=32 21.52/20.59, vote K=32 29.15/28.52
+ours U=100 [preselected order (K = 32 file)]: vote K=32 {'m': 12} (dev 15.98), test NME 16.44 % [15.52, 17.48], vs position only -17.80 [-18.94, -16.65], PCK@0.25 0.829, PCK@0.1 0.452; saturation (500/1000/2000) 16.61/16.36/16.44
+    per landmark NME: left eye 12.96, right eye 13.43, nose tip 22.39, left mouth corner 16.51, right mouth corner 16.92
+    every (readout, K): dev / test NME  regression K=4 30.74/30.30, vote K=4 39.32/38.65, regression K=8 26.82/25.93, vote K=8 31.74/30.92, regression K=16 24.27/23.84, vote K=16 23.55/23.62, regression K=32 19.93/19.26, vote K=32 15.98/16.44
+ours U=1000 [preselected order (K = 32 file)]: vote K=32 {'m': 16} (dev 15.08), test NME 14.70 % [13.91, 15.61], vs position only -19.54 [-20.61, -18.44], PCK@0.25 0.862, PCK@0.1 0.482; saturation (500/1000/2000) 14.47/14.65/14.70
+    per landmark NME: left eye 11.02, right eye 11.34, nose tip 20.01, left mouth corner 15.79, right mouth corner 15.36
+    every (readout, K): dev / test NME  regression K=4 33.11/32.09, vote K=4 54.64/51.18, regression K=8 29.08/28.32, vote K=8 35.21/32.91, regression K=16 22.68/22.06, vote K=16 20.12/19.51, regression K=32 19.70/18.75, vote K=32 15.08/14.70
+ourssel U=100 [preselected order (K = 32 file)]: vote K=32 {'m': 16} (dev 13.52), test NME 13.11 % [12.52, 13.74], vs position only -21.13 [-22.06, -20.19], PCK@0.25 0.881, PCK@0.1 0.522; saturation (500/1000/2000) 13.15/13.09/13.11
+    per landmark NME: left eye 8.90, right eye 9.16, nose tip 19.37, left mouth corner 13.98, right mouth corner 14.16
+    every (readout, K): dev / test NME  regression K=4 22.88/22.40, vote K=4 27.10/27.91, regression K=8 20.90/20.14, vote K=8 18.93/19.20, regression K=16 19.20/18.94, vote K=16 15.20/14.70, regression K=32 18.17/17.86, vote K=32 13.52/13.11
+ourssel U=1000 [preselected order (K = 32 file)]: vote K=32 {'m': 16} (dev 12.17), test NME 11.91 % [11.39, 12.49], vs position only -22.33 [-23.24, -21.36], PCK@0.25 0.914, PCK@0.1 0.561; saturation (500/1000/2000) 12.09/11.99/11.91
+    per landmark NME: left eye 7.96, right eye 7.85, nose tip 17.15, left mouth corner 13.78, right mouth corner 12.80
+    every (readout, K): dev / test NME  regression K=4 21.40/20.19, vote K=4 20.97/19.74, regression K=8 19.25/18.37, vote K=8 15.35/14.42, regression K=16 17.60/17.06, vote K=16 13.04/12.87, regression K=32 16.12/16.01, vote K=32 12.17/11.91
+ourssel60 U=100 [preselected order (K = 32 file)]: vote K=32 {'m': 12} (dev 21.47), test NME 21.59 % [20.52, 22.79], vs position only -12.65 [-13.89, -11.33], PCK@0.25 0.716, PCK@0.1 0.335; saturation (500/1000/2000) 24.37/22.85/21.59
+    per landmark NME: left eye 18.33, right eye 18.19, nose tip 29.20, left mouth corner 21.08, right mouth corner 21.15
+    every (readout, K): dev / test NME  regression K=4 24.85/24.26, vote K=4 36.68/37.29, regression K=8 23.35/23.16, vote K=8 27.67/26.99, regression K=16 22.61/22.11, vote K=16 21.72/21.70, regression K=32 22.14/21.64, vote K=32 21.47/21.59
+ourssel60 U=1000 [preselected order (K = 32 file)]: regression K=32 {'lam': np.float64(100.0)} (dev 24.68), test NME 24.22 % [23.46, 25.01], vs position only -10.02 [-10.90, -9.22], PCK@0.25 0.593, PCK@0.1 0.140; saturation (500/1000/2000) 24.76/24.33/24.22
+    per landmark NME: left eye 22.06, right eye 22.23, nose tip 30.39, left mouth corner 22.97, right mouth corner 23.47
+    every (readout, K): dev / test NME  regression K=4 27.45/27.60, vote K=4 29.04/29.11, regression K=8 26.20/26.18, vote K=8 29.04/29.11, regression K=16 25.29/25.03, vote K=16 27.50/27.27, regression K=32 24.68/24.22, vote K=32 26.20/26.03
+ourssel60sxs U=100 [preselected order (K = 32 file)]: vote K=32 {'m': 16} (dev 14.51), test NME 14.63 % [13.93, 15.45], vs position only -19.61 [-20.61, -18.55], PCK@0.25 0.859, PCK@0.1 0.477; saturation (500/1000/2000) 15.22/14.55/14.63
+    per landmark NME: left eye 11.22, right eye 11.39, nose tip 19.70, left mouth corner 15.43, right mouth corner 15.41
+    every (readout, K): dev / test NME  regression K=4 23.11/22.59, vote K=4 32.92/34.23, regression K=8 21.55/20.98, vote K=8 21.22/21.59, regression K=16 19.92/19.62, vote K=16 16.15/16.38, regression K=32 18.73/18.35, vote K=32 14.51/14.63
+ourssel60sxs U=1000 [preselected order (K = 32 file)]: vote K=32 {'m': 16} (dev 13.34), test NME 13.25 % [12.56, 14.02], vs position only -21.00 [-21.98, -20.00], PCK@0.25 0.886, PCK@0.1 0.520; saturation (500/1000/2000) 13.15/13.12/13.25
+    per landmark NME: left eye 9.51, right eye 9.70, nose tip 18.54, left mouth corner 14.36, right mouth corner 14.12
+    every (readout, K): dev / test NME  regression K=4 22.99/21.77, vote K=4 24.53/22.49, regression K=8 20.83/19.97, vote K=8 16.81/16.47, regression K=16 19.09/18.43, vote K=16 14.03/14.05, regression K=32 18.07/17.38, vote K=32 13.34/13.25
